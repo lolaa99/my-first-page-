@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jaihind</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico?v=2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- header portion for navbar -->
+  <header>
+    <nav class="navbar">
+      <ul class="listitem">
+        <li> <a href="">Home</a></li>
+        <li> <a href="" target="_blank">About us</a></li>
+        <li> <a href="contact.html" target="blank" >Contact</a></li>
+        <li> <a href="https://drive.google.com/uc?export=download&id=1hbvvihskqSlJEmPg2_ASqHiVkoKgjo9j"
+            target="_blank">Download Cv</a></li>
+      </ul>
+
+  </header>
+  <div class="firstbox">
+    <div class="mount">
+    <img src="all images/cloud.png" alt="cloud" class="cloud1">
+    <div class="container">Jaihind Sharma</div>
+    <div class="title">A Web Devoloper</div>
+    <img src="all images/cloud.png" alt="" class="cloud2">
+    
+      <img src="all images/mountain.png" alt="mountain" class="mountain">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- first image -->
+
+  <div class="parrent11">
+
+    <div class="imgcontainer">
+      <img src="all images/happy.png" alt="" class="himage">
+      <p>I'm a web designer/ developer based in Lucknow, Uttar Pradesh. <br> I have a passion for web design and love to
+        create <br> for web and mobile devices.</p>
+    </div>
+
+  </div>
+  <hr class="spots">
+  </div>
+  <div class="parent">
+
+    <div class="parent-row">
+      <img src="all images/hapy.png" alt="happy" class="hapy">
+      <h3> Design what you want.</h3>
+      <p class="text2">I like to keep it simple. My goals are to focus on typography, content and conveying the message
+        that you want to send.</p>
+
+    </div>
+    <div class="parent2">
+      <img src="all images/ux.png" alt="" class="ux">
+      <h3>Develop what you need.</h3>
+      <p>I'm a developer, so I know how to create your website to run across devices using the latest technologies
+        available.</p>
+    </div>
+
+  </div>
+  <hr class="spots2">
+  <div class="bottom">
+    <div class="bottom2">
+      <a href="https://www.facebook.com/profile.php?id=100008372496491&mibextid=ZbWKwL" target="_blank">Facebok</a>
+      <a href="">Instagram</a>
+      <a href="">Hire me</a>
+      <p>
+        © 2022 All Rights Reserved
+      </p>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
