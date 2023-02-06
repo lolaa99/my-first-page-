@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #383838;
+    width: auto;
+}
+
+ul {
+    margin: 0;
+    color: #eaf6f6;
+    list-style: none;
+}
+
+li {
+    display: inline-table;
+    margin: 20px 20px 20px 0;
+
+
+}
+
+.container {
+    background: transparent;
+    font-size: 70px;
+    font-family: 'Sacramento', cursive;
+    color: #069A8E;
+    display: block;
+    position: relative;
+    top: 80px;
+
+}
+
+.title {
+    background: transparent;
+    display: block;
+    position: relative;
+    top: 80px;
+}
+
+div {
+    display: block;
+}
+
+.cloud1 {
+    display: block;
+    position: relative;
+    top: 75px;
+    left: 63%;
+}
+
+.mountain {
+    display: block;
+    position: relative;
+    left: 30%;
+    bottom: -73px;
+
+}
+
+.cloud2 {
+    display: block;
+    position: relative;
+    left: 10%;
+    top: 30%;
+}
+
+hr {
+    display: block;
+    position: relative;
+    top: 52px;
+    border-top-style: dotted;
+    border-top-width: 10px;
+    width: 6%;
+    color: grey;
+
+}
+
+hr:hover {
+    color: red;
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.img2 {
+    height: 150px;
+    width: 150px;
+    background-color: grey;
+    border: 2px solid grey;
+    border-radius: 75px;
+}
+
+.img2:hover {
+    transform: scale(1.3) rotate(5deg);
+}
+
+.text2 {
+    font-family: 'Crimson Text', serif;
+    color: grey;
+    font-size: 1.3em;
+    font-weight: normal;
+    width: 90%;
+}
+
+.spots {
+    display: block;
+    position: relative;
+    top: 30px;
+    border-top-style: dotted;
+    border-bottom: none;
+    width: 6%;
+    color: grey;
+
+}
+
+.spots2 {
+    border-top-style: dotted;
+    border-top-width: 10px;
+    width: 6%;
+    color: grey;
+    top: 20px;
+}
+
+.spots:hover {
+    color: red;
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.parent-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    font-family: 'Crimson Text', serif;
+    color: grey;
+}
+
+
+h2 {
+    font-size: 2rem;
+    color: #45b29a;
+    font-family: 'Noto Sans TC', sans-serif;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #45b29a;
+    font-family: 'Mukta', sans-serif;
+
+}
+
+.hapy {
+    width: 25%;
+    float: left;
+    margin: 5px 45px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.imgcontainer {
+    width: 50%;
+    margin: 140px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    font-family: 'Crimson Text', serif;
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.himage {
+    width: 25%;
+    float: right;
+    margin: 0 25px;
+    border-radius: 50%;
+}
+
+.parent2 {
+    width: 50%;
+    margin: 140px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    font-family: 'Crimson Text', serif;
+    color: grey;
+    font-size: 1.3rem;
+}
+
+.ux {
+    width: 25%;
+    float: right;
+    margin: 0 25px;
+    border-radius: 50%;
+}
+
+.men {
+    width: 25%;
+    float: left;
+    margin: 5px 45px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.bottom {
+
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px 0 16px 0;
+    background-color: #3FA796;
+}
+
+.bottom2 {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+a {
+    color: #D4ECDD;
+    margin: 1px 20px;
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+}
+
+a:hover {
+    color: #FBD46D;
+}
+
+.firstbox {
+    text-align: center;
+    width: auto;
+    height: 650px;
+    background-color: #e0ebe8;
+}
+
+
+/* responsive code */
+@media only screen and (max-width: 1140px) {
+    .listitem {
+        flex-direction: column;
+    }
+
+
+    .mountain {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    .cloud1 {
+        display: block;
+        position: relative;
+        top: 10%;
+        
+        height: auto;
+        width: 20%;
+    }
+    .cloud2 {
+        display: block;
+        position: relative;
+        top: 20%;
+        width: 20%;
+        height: auto;
+    }
+    .mountain {
+        display: block;
+        position: relative;
+        width: 50%;
+        height: auto;
+        top: 300px;
+    }
+    .container {
+        background: transparent;
+        font-size: 2.5rem;
+        font-family: 'Sacramento', cursive;
+        color: #069A8E;
+        display: block;
+        position: relative;
+        top: 80px;
+    
+    }
+    .hapy {
+        width: 70%;
+        float: left;
+        margin: 5px 45px;
+        border: 2px solid grey;
+        border-radius: 50%;
+        background-color: grey;
+    }
+
+    .ux {
+        width: 75%;
+        float: right;
+        margin: 0 25px;
+        border-radius: 50%;
+
+}
+
+
+}
